@@ -1,0 +1,85 @@
+/* Scss Document */
+
+//////////////////// BTN STYLING
+
+.btn-primary {
+	background-color:#006ab2;
+	border-color:#007FD5;
+	border-radius: 0 !important;
+}
+
+.btn-primary:hover {
+	background-color:#007FD5;
+	border-color:#007FD5;
+	border-radius: 0 !important;
+}
+
+input.search-submit,
+button {
+	@extend .btn, .btn-primary;
+	padding: 5px 10px;
+    font-size: 13px;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+
+.single_add_to_cart_button.button.alt {
+	@extend .btn, .btn-primary;
+	background-color:#006ab2 !important;
+	border-color:#007FD5 !important;
+	padding:2.5px 15px !important;
+}
+
+.single_add_to_cart_button.button.alt:hover {
+	background-color:#007FD5 !important;
+	border-color:#007FD5 !important;
+}
+
+#pa_color,
+#pa_size {
+	@extend .form-control;
+	height:100%;
+	width:70%;
+	padding:5px 10px !important;
+	margin-top:10px;
+}
+
+table.variations {
+	margin-top:15px !important;
+	margin-bottom:30px !important;
+}
+
+//////////////////// INPUT STYLING
+
+.orderby {
+	@extend .form-control;
+	margin-bottom:20px;
+}
+
+//////////////////// WOOCOMMERCE STYLING
+
+.button.product_type_variable.add_to_cart_button,
+.wp-block-button__link.add_to_cart_button,
+.term-description,
+.navigation.post-navigation {
+	display:none !important;
+}
+
+//////////////////// FRONT PAGE SLIDER
+
+
+.left.seriousslider-control:focus,
+.right.seriousslider-control:focus {
+	outline:none !important;
+	box-shadow: none !important;
+	background:none !important;
+}
+
+
+
+
+
+
+
+
+

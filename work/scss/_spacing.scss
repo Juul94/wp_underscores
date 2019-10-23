@@ -1,0 +1,102 @@
+/* Scss Document */
+
+//////////////////// WOOCOMMERCE STYLING
+
+ul.product_list_widget {
+	padding-right: 10px !important;
+}
+
+ul.product_list_widget li {
+	margin-top:10px !important;
+}
+
+ul.product_list_widget li:first-of-type {
+	margin-top:0 !important;
+}
+
+ul.product_list_widget li a:hover {
+	text-decoration: none !important;
+}
+
+ins {
+	background-color:#FFE793 !important;
+}
+
+.widget {
+	margin-bottom:35px;
+}
+
+table.variations td.label {
+	width:80px;
+}
+
+body.home .woocommerce.columns-4 {
+	border-top: 1px solid #ccc;
+	padding-top: 25px;
+}
+
+//////////////////// SEARCH PAGE
+
+body.search.search-results .status-publish {
+	padding-bottom:25px;
+	border-bottom:1px solid #ccc;
+}
+
+body.search.search-results .status-publish:first-of-type {
+	padding-top:20px;
+	margin-top:25px;
+	border-top:1px solid #ccc;
+}
+
+//////////////////// FRONT PAGE SLIDER
+
+body.home .entry-content {
+	margin-top:10px !important;
+}
+
+body.home h4  {
+	margin-top:75px !important;
+	margin-bottom:10px;
+}
+
+//////////////////// SINGLE PRODUCT PAGE
+
+.product_meta {
+	margin-top:50px;
+}
+
+.posted_in {
+	display:block;
+	margin-bottom:10px;
+	color:#212121;
+	
+	a {
+		color:#007bff !important;
+		text-transform: uppercase;
+	}
+}
+
+.tagged_as {
+	display:block;
+	margin-bottom:10px;
+	color:#212121;
+	
+	a {
+		color:#007bff !important;
+		text-transform: uppercase;
+	}
+}
+
+
+//////////////////// CHECKOUT/SHOPPING CART
+
+button[name=update_cart] {
+	margin-right:92.5px !important;
+}
+
+
+
+
+
+
+
